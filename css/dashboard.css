@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    margin: auto 0;
+    list-style-type: none;
+    padding: 0;
+    justify-content: center;
+    background-color: #444;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+ul li .tablinks {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    background-color: darkslategrey;
+    outline: none;
+}
+
+ul li:hover a {
+    color: var(--prime);
+}
+.tabcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tabcontent .form-control{
+    width: 50%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    background-color: #777;
+    color: #fff;
+    outline: none;
+}
+.tabcontent .form-control::placeholder{
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: red;
+}

@@ -1,0 +1,27 @@
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    z-index: 1112;
+    transform: translateY(-50%);
+}
+
+.menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+    transition: 0.3s;
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+}
+.nav-link a{
+    height: fit-content;
+}
